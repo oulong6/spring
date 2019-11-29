@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    include: develpoment
+  mvc:
+    static-path-pattern: /html/**
+  resources:
+    static-locations: classpath:/aa/
+user:
+  username: "张三"
+  age: 12
+  book: ["ds","D"]
+---
+spring:
+  profiles: develpoment
+user:
+  username: "张"
+  age: 12

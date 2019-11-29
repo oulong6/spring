@@ -1,0 +1,7 @@
+# Project exclude paths
+/out/
+/spring2/target/
+/spring4/target/
+/springmvc/target/
+/springmvc_annotation/target/
+/springvalidator/target/
